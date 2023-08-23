@@ -38,7 +38,7 @@ if __name__ == '__main__':
         logdf = log_to_dataframe(f'./logs/{setting["log_file"]}', setting['log_format'])
         logdf.to_csv(f"datasets/{setting['log_file']}_structured.csv")
 
-        labelled_logs = pd.read_csv(f'./logs/{setting["log_file"]}_structured.csv')
+        labelled_logs = pd.read_csv(f'./logs/{setting["log_file"]}_structured_corrected.csv')
         test_samples = [(row['Content'], row['EventTemplate']) for _, row in labelled_logs.iterrows()]
         template_dict = {k: v for (k, v) in test_samples}
         # with open("datasets/{0}/test.json".format(dataset), "w") as f:
