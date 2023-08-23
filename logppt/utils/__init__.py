@@ -14,10 +14,10 @@ benchmark = {
     #     'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>',
     # },
 
-    # 'Spark': {
-    #     'log_file': 'Spark/Spark_2k.log',
-    #     'log_format': '<Date> <Time> <Level> <Component>: <Content>',
-    # },
+    'Spark': {
+        'log_file': 'Spark/Spark_2k.log',
+        'log_format': '<Date> <Time> <Level> <Component>: <Content>',
+    },
 
     # 'Zookeeper': {
     #     'log_file': 'Zookeeper/Zookeeper_2k.log',
@@ -49,15 +49,15 @@ benchmark = {
     #     'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
     # },
 
-    'Android': {
-        'log_file': 'Android/Android_2k.log',
-        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
-    },
+    # 'Android': {
+    #     'log_file': 'Android/Android_2k.log',
+    #     'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
+    # },
 
-    'Android copy': {
-        'log_file': 'Android copy/Android_2k.log',
-        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
-    },
+    # 'Android copy': {
+    #     'log_file': 'Android copy/Android_2k.log',
+    #     'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
+    # },
 
     # 'HealthApp': {
     #     'log_file': 'HealthApp/HealthApp_2k.log',
